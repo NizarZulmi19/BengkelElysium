@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Elysium Store Admin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tambah_transaksi">Tambah Transaksi</string>
+    <string name="nama_pelanggan">Nama pelanggan</string>
+    <string name="pilihan_paket">Pilihan Paket Elysium Store :</string>
+    <string name="body_kit">Body Kit</string>
+    <string name="sparepart"><![CDATA[Sparepart & Alat]]></string>
+    <string name="service">Perbaikan Mesin</string>
+    <string name="jumlah_uang">Jumlah uang</string>
+    <string name="nama_admin">Nama Admin</string>
+    <string name="proses_transaksi">Proses transaksi</string>
+    <string name="total_bayar">Total bayar</string>
+    <string name="total_harga">Total harga</string>
+    <string name="daftar_transaksi">Daftar Transaksi</string>
+    <string name="null_field">%1$s wajib diisi!</string>
+    <string name="uang_kurang">Uang anda kurang!</string>
+    <string name="konfirmasi_transaksi">Konfirmasi Transaksi</string>
+    <string name="kembalian">Kembalian</string>
+    <string name="submit_transaksi">Submit transaksi</string>
+    <string name="reset">reset</string>
+    <string name="tanggal">Sabtu 1 Januari 2020</string>
+    <string name="nizar">Nizar</string>
+    <string name="paket">Body Kit</string>
+    <string name="delete_confirmation">Yakin ingin menghapus data transaksi?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Batal</string>
+    <string name="success_delete">Data transaksi berhasil dihapus!</string>
+    <string name="success_update">"Berhasil update transaksi!</string>
+    <string name="success_insert">"Berhasil tambah transaksi!</string>
+    <string name="edit_transaksi">Edit Transaksi</string>
+    <string name="update_transaksi">Update Transaksi</string>
+</resources>
