@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimaryDark"
+        android:background="#FF3B3B"
         tools:context=".ui.main.MenuActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,6 +19,18 @@
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="900dp"
+                android:layout_marginEnd="34dp"
+                android:text="About Aplication"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -38,7 +50,7 @@
                 android:foreground="?attr/selectableItemBackground"
                 android:text="Buat Pesanan"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="#050505"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="@id/layout_utama"
                 app:layout_constraintStart_toStartOf="@id/layout_utama"
@@ -53,11 +65,22 @@
                 android:foreground="?attr/selectableItemBackground"
                 android:text="Lihat History Pesanan"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="@id/layout_utama"
                 app:layout_constraintStart_toStartOf="@id/layout_utama"
                 app:layout_constraintTop_toBottomOf="@+id/btn_add" />
+
+            <ImageButton
+                android:id="@+id/btnInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="43dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_perm_device_information_24" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

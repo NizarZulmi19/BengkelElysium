@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BengkelElysium">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.add.TambahTransaksiActivity"></activity>
+        <activity android:name=".ui.HomeActivity" />
+        <activity android:name=".ui.main.Profile"/>
+        <activity android:name=".ui.main.MenuActivity" />
+        <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

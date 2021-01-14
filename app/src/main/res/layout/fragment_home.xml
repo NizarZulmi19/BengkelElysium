@@ -11,10 +11,10 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="280dp"
-            android:layout_height="69dp"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/hero"
+            android:src="@drawable/header"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +27,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:gravity="center"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
             android:text="Riwayat Transaksi"
             android:textColor="@android:color/white"
@@ -45,7 +45,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="8dp"
                 tools:layout_editor_absoluteX="0dp"
-                tools:listitem="@layout/recyclerview_elysiumshop" />
+                tools:listitem="@layout/recyclerview_barbershop" />
         </RelativeLayout>
 
     </RelativeLayout>

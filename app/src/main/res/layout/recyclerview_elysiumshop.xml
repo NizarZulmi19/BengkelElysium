@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <LinearLayout
@@ -89,7 +89,7 @@
                             android:id="@+id/tv_harga"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp35.000"
+                            android:text="Rp350.000"
                             android:layout_marginHorizontal="5dp"
                             android:textSize="14sp"
                             android:textColor="@color/text_brown" />
@@ -108,7 +108,7 @@
                 android:layout_alignTop="@+id/layout_kiri"
                 android:layout_alignBottom="@+id/layout_kiri"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/chevron" />
+                app:srcCompat="@drawable/ic_baseline_edit_attributes_24" />
 
         </RelativeLayout>
 
